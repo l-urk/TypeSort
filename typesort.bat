@@ -6,7 +6,6 @@ timeout /t 3
 cls
 color 07
 set "imgfd=%~dp0"
-if not exist "%imgfd%" set "imgfd=%userprofile%\OneDrive\Pictures"
 echo sorting %imgfd%
 for %%F in ("%imgfd%\*.*") do (
 	set "file=%%~nF"
